@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Таблица сотрудников с дизайном</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px auto;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Стиль для hover-эффекта */
+        tr:hover {
+            background-color: #e6f7ff;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th>Табельный номер</th>
+            <th>Фамилия</th>
+            <th>Имя</th>
+            <th>Отчество</th>
+            <th>Отдел</th>
+            <th>Зарплата</th>
+        </tr>
+    </thead>
+    <!-- <tbody>
+        <tr>
+            <td>EMP0001</td>
+            <td>Иванов</td>
+            <td>Иван</td>
+            <td>Иванович</td>
+            <td>IT</td>
+            <td>55000</td>
+        </tr>
+        </tbody> -->
+</table>
+
+</body>
+</html>
